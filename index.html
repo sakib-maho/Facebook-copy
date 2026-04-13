@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Feed Clone</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="container topbar">
+    <h1>Social Feed Clone</h1>
+    <input id="searchInput" type="search" placeholder="Search posts or author">
+  </header>
+
+  <main class="container">
+    <section id="meta" class="meta"></section>
+    <section id="feed" class="feed"></section>
+  </main>
+
+  <template id="postTemplate">
+    <article class="post">
+      <h2 class="author"></h2>
+      <p class="content"></p>
+      <div class="tags"></div>
+    </article>
+  </template>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

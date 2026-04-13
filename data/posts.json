@@ -1,0 +1,17 @@
+[
+  {
+    "author": "Sakib",
+    "content": "Shipping a cleaner repository pass today with tests and docs.",
+    "tags": ["devlog", "github", "quality"]
+  },
+  {
+    "author": "Ava",
+    "content": "Finished API integration and pushed performance fixes.",
+    "tags": ["api", "backend", "release"]
+  },
+  {
+    "author": "Noah",
+    "content": "Working on responsive feed cards for mobile and desktop.",
+    "tags": ["frontend", "css", "ui"]
+  }
+]

@@ -18,7 +18,7 @@ It includes searchable posts, JSON data loading, and schema tests.
 - Data schema validation test
 - Legacy archive preserved in `legacy/archives/`
 
-## Run Locally
+## Quick Start
 
 ```bash
 python3 -m http.server 8000
@@ -26,7 +26,7 @@ python3 -m http.server 8000
 
 Open `http://localhost:8000`.
 
-## Run Tests
+## Tests
 
 ```bash
 python3 -m unittest discover -s tests -p "test_*.py"
